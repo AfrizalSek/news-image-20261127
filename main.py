@@ -673,7 +673,7 @@ def sc_cart(x, y, w, h):
 
 def sc_market(x, y, w, h):
     fill(x, y, w, h, (245, 244, 238))
-    text(x + 6, y + 3, 'KOSPI +2.9%', 10, GREEN)
+    text(x + 6, y + 3, 'KOSPI +4.34%', 10, GREEN)
     vals = [0.30, 0.45, 0.40, 0.62, 0.55, 0.85, 0.95]
     bw = (w - 12) // 7
     for i, v in enumerate(vals):
@@ -871,7 +871,7 @@ HEROES = [
          src='BENZINGA', sure='REPORTED'),
     dict(n=3, region='E. ASIA', icon='market',
          head='ASIAN STOCKS RALLY, BITCOIN $61,869',
-         body=('KOSPI JUMPS 2.9%, NIKKEI UP 1.4% AS TECH REBOUNDS. GOLD '
+         body=('KOSPI JUMPS 4.34%, NIKKEI UP 1.4% AS TECH REBOUNDS. GOLD '
                '$3,565; OIL NEARS $86.'),
          why='TECH REBOUND AFTER THE NASDAQ BEAR-MARKET SCARE; WALL ST REOPENS FOR A HALF DAY.',
          src='FINNHUB', sure='REPORTED'),
@@ -978,7 +978,7 @@ CHIPS = [('N. AMERICA', 4), ('S. AMERICA', 1), ('EUROPE', 16),
 NUMBERS = [
     ('65', 'SEATS: NZ COALITION', 'ONE SHORT OF MAJORITY'),
     ('$149', 'AIRPODS PRO 3', 'BLACK FRIDAY PRICE'),
-    ('+2.9%', 'KOSPI IN SEOUL', 'FRIDAY RALLY'),
+    ('+4.34%', 'KOSPI IN SEOUL', 'FRIDAY RALLY'),
     ('$61,869', 'BITCOIN', '07:22 UTC, +2.2%'),
     ('$3,565', 'GOLD PER OUNCE', 'FRIDAY TRADE'),
     ('$85.78', 'WTI CRUDE OIL', 'SUPPLY FEARS LIFT IT'),
